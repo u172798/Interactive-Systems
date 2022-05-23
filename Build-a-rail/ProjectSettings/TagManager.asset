@@ -21,6 +21,15 @@ TagManager:
   - CoreStarElement
   - Reward
   - objectiveTriangle
+  - Stump
+  - Stone
+  - FixedRail
+  - Anvil
+  - Axe
+  - Pickaxe
+  - WoodLabel
+  - IronLabel
+  - CraftedRail
   layers:
   - Default
   - TransparentFX
