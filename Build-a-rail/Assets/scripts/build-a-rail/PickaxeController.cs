@@ -47,14 +47,14 @@ public class PickaxeController : MonoBehaviour
 
     void OnTriggerEnter(Collider targetObj)
     {
-        if (targetObj.gameObject.tag == "Player1" && redplayer && !GameController.player1_status)
+        if (targetObj.gameObject.tag == "Player1" && redplayer && !GameController.player1_status && !GameController.axe_p1_status && !GameController.pickaxe_p2_status)
         {
-            blueplayer = false; follow = true; GameController.player1_status = true;
+            blueplayer = false; follow = true; GameController.player1_status = true; GameController.pickaxe_p1_status = true;
         }
 
-        if (targetObj.gameObject.tag == "Player2" && blueplayer && !GameController.player2_status)
+        if (targetObj.gameObject.tag == "Player2" && blueplayer && !GameController.player2_status && !GameController.axe_p2_status && !GameController.pickaxe_p1_status)
         {
-            redplayer = false; follow = true; GameController.player2_status = true;
+            redplayer = false; follow = true; GameController.player2_status = true; GameController.pickaxe_p2_status = true;
         }
 
         if (targetObj.gameObject.tag == "Stone")
