@@ -34,26 +34,67 @@ public class MaterialDrag : MonoBehaviour
         {
             player1_dragging = false; player2_dragging = false;
             GameController.player1_status = false; GameController.player2_status = false;
+
+            GameController.wood_player1_status = false; GameController.wood_player2_status = false;
+            GameController.iron_player1_status = false; GameController.iron_player2_status = false;
+            GameController.craftedrail_player1_status = false; GameController.craftedrail_player2_status = false;
         }
 
         if (player1_dragging && player2_dragging && condition)
         {
             transform.position = red.position + (blue.position - red.position) / 2;
+
+            if (GameController.destroy_material)
+            {
+                GameController.player1_status = false; GameController.player2_status = false;
+                GameController.destroy_material = false;
+                Destroy(this.gameObject);
+            }
         }
     }
 
     void OnTriggerEnter(Collider targetObj)
     {
-        if (targetObj.gameObject.tag == "Player1")
+        if (targetObj.gameObject.tag == "Player1" && !GameController.player1_status)
         {
             player1_dragging = true;
             GameController.player1_status = true;
+
+            if (this.gameObject.tag == "WoodLabel")
+            {
+                GameController.wood_player1_status = true;
+            }
+
+            if (this.gameObject.tag == "IronLabel")
+            {
+                GameController.iron_player1_status = true;
+            }
+
+            if (this.gameObject.tag == "CraftedRail")
+            {
+                GameController.craftedrail_player1_status = true;
+            }
         }
 
-        if (targetObj.gameObject.tag == "Player2")
+        if (targetObj.gameObject.tag == "Player2" && !GameController.player2_status)
         {
             player2_dragging = true;
             GameController.player2_status = true;
+
+            if (this.gameObject.tag == "WoodLabel")
+            {
+                GameController.wood_player2_status = true;
+            }
+
+            if (this.gameObject.tag == "IronLabel")
+            {
+                GameController.iron_player2_status = true;
+            }
+
+            if (this.gameObject.tag == "CraftedRail")
+            {
+                GameController.craftedrail_player2_status = true;
+            }
         }
     }
 }

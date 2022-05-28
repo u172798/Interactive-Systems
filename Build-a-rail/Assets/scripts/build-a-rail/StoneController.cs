@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class StoneController : MonoBehaviour
 {
+    public GameObject iron_label;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +22,13 @@ public class StoneController : MonoBehaviour
     {
         if (targetObj.gameObject.tag == "Player1" && GameController.pickaxe_p1_status)
         {
+            Instantiate(iron_label, this.transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
 
         if (targetObj.gameObject.tag == "Player2" && GameController.pickaxe_p2_status)
         {
+            Instantiate(iron_label, this.transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
     }
