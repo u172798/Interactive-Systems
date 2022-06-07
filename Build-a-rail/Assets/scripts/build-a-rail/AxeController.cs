@@ -13,11 +13,15 @@ public class AxeController : MonoBehaviour
     //players transform
     public Transform red; public Transform blue;
 
+    //axe animator
+    private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         redplayer = true; blueplayer = true; follow = false;
         transform = this.GetComponent<Transform>();
+        animator = this.gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -43,6 +47,13 @@ public class AxeController : MonoBehaviour
             GameController.player2_status = false;
             Destroy(this.gameObject);
         }
+
+        //animation clip activate
+        if (GameController.axe_animate)
+        {
+            animator.SetTrigger("Cut");
+            GameController.axe_animate = false;
+        }
     }
 
     void OnTriggerEnter(Collider targetObj)
@@ -55,11 +66,6 @@ public class AxeController : MonoBehaviour
         if (targetObj.gameObject.tag == "Player2" && blueplayer && !GameController.player2_status && !GameController.pickaxe_p2_status && !GameController.axe_p1_status)
         {
             redplayer = false; follow = true; GameController.player2_status = true; GameController.axe_p2_status = true;
-        }
-
-        if (targetObj.gameObject.tag == "Stump")
-        {
-            Destroy(targetObj.gameObject);
         }
     }
 }

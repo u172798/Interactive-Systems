@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1834877161597063694}
   - component: {fileID: -5901959950757575304}
   - component: {fileID: -4086868186478341150}
+  - component: {fileID: 5052441365988858318}
   m_Layer: 0
   m_Name: axe01
   m_TagString: Axe
@@ -110,3 +111,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   red: {fileID: 0}
   blue: {fileID: 0}
+--- !u!95 &5052441365988858318
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811303648494473454}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ae68f53791b742038d879088777ba95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

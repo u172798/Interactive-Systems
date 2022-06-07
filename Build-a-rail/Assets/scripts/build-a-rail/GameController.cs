@@ -12,6 +12,9 @@ public static class GameController
     public static bool pickaxe_p1_status { get; set; }
     public static bool pickaxe_p2_status { get; set; }
 
+    public static bool axe_animate { get; set; }
+    public static bool pickaxe_animate { get; set; }
+
     public static bool wood_player1_status { get; set; }
     public static bool wood_player2_status { get; set; }
     public static bool iron_player1_status { get; set; }
