@@ -16,6 +16,9 @@ public class PickaxeController : MonoBehaviour
     //pickaxe animator
     private Animator animator;
 
+    //pickaxe sound
+    public AudioSource pickAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +55,7 @@ public class PickaxeController : MonoBehaviour
         if (GameController.pickaxe_animate)
         {
             animator.SetTrigger("Picar");
+            pickAudio.Play();
             GameController.pickaxe_animate = false;
         }
     }

@@ -8,128 +8,129 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/victoregea/Downloads/Interactive-Systems-main/Build-a-rail
+/Users/victoregea/Documents/Enginyeria/3r/3r trimestre/Interactive systems/Build-a-rail
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49192
-Successfully changed project path to: /Users/victoregea/Downloads/Interactive-Systems-main/Build-a-rail
-/Users/victoregea/Downloads/Interactive-Systems-main/Build-a-rail
+54180
+Successfully changed project path to: /Users/victoregea/Documents/Enginyeria/3r/3r trimestre/Interactive systems/Build-a-rail
+/Users/victoregea/Documents/Enginyeria/3r/3r trimestre/Interactive systems/Build-a-rail
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 53.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/victoregea/Downloads/Interactive-Systems-main/Build-a-rail/Assets
+[Subsystems] Discovering subsystems at path /Users/victoregea/Documents/Enginyeria/3r/3r trimestre/Interactive systems/Build-a-rail/Assets
 GfxDevice: creating device client; threaded=0
-2022-06-08 19:15:32.393 Unity[29050:3455442] BenQ GW2480 preferred device: Intel(R) UHD Graphics 630 (low power)
-2022-06-08 19:15:32.393 Unity[29050:3455442] Metal devices available: 1
-2022-06-08 19:15:32.393 Unity[29050:3455442] 0: Intel(R) UHD Graphics 630 (low power)
-2022-06-08 19:15:32.394 Unity[29050:3455442] Using device Intel(R) UHD Graphics 630 (low power)
-Initializing Metal device caps: Intel(R) UHD Graphics 630
+2022-06-09 20:21:09.970 Unity[42731:480381] Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+2022-06-09 20:21:09.970 Unity[42731:480381] Metal devices available: 2
+2022-06-09 20:21:09.971 Unity[42731:480381] 0: AMD Radeon Pro 5300M (high power)
+2022-06-09 20:21:09.971 Unity[42731:480381] 1: Intel(R) UHD Graphics 630 (low power)
+2022-06-09 20:21:09.971 Unity[42731:480381] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56050
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56731
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004093 seconds.
+Registered in 0.000586 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 66.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.876 seconds
+- Completed reload, in  2.129 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004961 seconds.
+Registered in 0.001088 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.790 seconds
+- Completed reload, in  1.392 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.3 MB.
-System memory in use after: 118.7 MB.
+System memory in use before: 122.8 MB.
+System memory in use after: 122.3 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1843.
-Total: 3.881827 ms (FindLiveObjects: 0.442570 ms CreateObjectMapping: 1.168810 ms MarkObjects: 1.884826 ms  DeleteObjects: 0.384474 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/Empty.mat
-  artifactKey: Guid(e95518eff8a30a64eb2c94361f47d2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Empty.mat using Guid(e95518eff8a30a64eb2c94361f47d2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b891ebc7bfac9f7a22756e8252185cd9') in 1.490499 seconds
-  Import took 1.498477 seconds .
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 3.103078 ms (FindLiveObjects: 0.218485 ms CreateObjectMapping: 0.066815 ms MarkObjects: 2.353014 ms  DeleteObjects: 0.463176 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001129 seconds.
-  path: Assets/Industrial Train Dr14
-  artifactKey: Guid(11c26bcde58756242848970e57cef850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Industrial Train Dr14 using Guid(11c26bcde58756242848970e57cef850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8294a9877eb76993773cb735173bce7') in 0.001267 seconds
-  Import took 0.004593 seconds .
+  path: Assets/Audio/anvilAudio.mp3
+  artifactKey: Guid(60bc82d255e6c4d6a89cf6fb01125d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/anvilAudio.mp3 using Guid(60bc82d255e6c4d6a89cf6fb01125d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbb181024c458cf858f684a69190b40') in 0.283654 seconds
+  Import took 0.286604 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(f1ea4846057723641a189556b4ec0588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(f1ea4846057723641a189556b4ec0588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b6420d55df7b5457a8dc76dde790db') in 0.005751 seconds
-  Import took 0.011345 seconds .
+  Time since last request: 5.771678 seconds.
+  path: Assets/Audio/anvilAudio.mp3
+  artifactKey: Guid(60bc82d255e6c4d6a89cf6fb01125d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/anvilAudio.mp3 using Guid(60bc82d255e6c4d6a89cf6fb01125d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a325b3b167e1437fbb9db218754b7f5') in 0.010820 seconds
+  Import took 0.013982 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.488282 seconds.
-  path: Assets/Uso
-  artifactKey: Guid(ebe0efd6af4684101a639a7f1d302b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Uso using Guid(ebe0efd6af4684101a639a7f1d302b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e873cf737b70a6eaf243c09ebb73ca19') in 0.001592 seconds
-  Import took 0.005696 seconds .
+  Time since last request: 0.000430 seconds.
+  path: Assets/Audio/anvilAudio.mp3
+  artifactKey: Guid(60bc82d255e6c4d6a89cf6fb01125d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/anvilAudio.mp3 using Guid(60bc82d255e6c4d6a89cf6fb01125d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a325b3b167e1437fbb9db218754b7f5') in 0.008279 seconds
+  Import took 0.012177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.163795 seconds.
-  path: Assets/Uso/Anvil
-  artifactKey: Guid(08ea2f08d36fcb142a06acae0010959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Uso/Anvil using Guid(08ea2f08d36fcb142a06acae0010959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5fb6098a1c375101b8600d17f60fee') in 0.000953 seconds
-  Import took 0.003941 seconds .
+  Time since last request: 25.758338 seconds.
+  path: Assets/scripts/build-a-rail/AnvilController.cs
+  artifactKey: Guid(4359120edaf965049b164ed0eaa5dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/build-a-rail/AnvilController.cs using Guid(4359120edaf965049b164ed0eaa5dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691e124f29fc960866d37fd9c910fe0c') in 0.286544 seconds
+  Import took 0.290241 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.199 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1859.
+Total: 2.454748 ms (FindLiveObjects: 0.226808 ms CreateObjectMapping: 0.064229 ms MarkObjects: 1.778012 ms  DeleteObjects: 0.384536 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Uso/Anvil
-  artifactKey: Guid(08ea2f08d36fcb142a06acae0010959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Uso/Anvil using Guid(08ea2f08d36fcb142a06acae0010959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5fb6098a1c375101b8600d17f60fee') in 0.005954 seconds
-  Import took 0.012547 seconds .
+  Time since last request: 75.473108 seconds.
+  path: Assets/scripts/build-a-rail/AnvilController.cs
+  artifactKey: Guid(4359120edaf965049b164ed0eaa5dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/build-a-rail/AnvilController.cs using Guid(4359120edaf965049b164ed0eaa5dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995ef09e5e441e84daa51c6bfce33116') in 0.007258 seconds
+  Import took 0.010204 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 14.214950 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(509a1b279f18d0649ba039c3502b57c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(509a1b279f18d0649ba039c3502b57c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfaf06c9ee099c50864d515eda7a8bc') in 0.001543 seconds
-  Import took 0.007081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.824755 seconds.
-  path: Assets/Scenes/IntSysTemplate.unity
-  artifactKey: Guid(28b01497748dc1a4599c1e6bca09c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/IntSysTemplate.unity using Guid(28b01497748dc1a4599c1e6bca09c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe8c955489c564563547fd5bfd0d470') in 0.005989 seconds
-  Import took 0.013051 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

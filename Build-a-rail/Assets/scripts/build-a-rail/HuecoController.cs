@@ -8,6 +8,7 @@ public class HuecoController : MonoBehaviour
 
     private bool player1_touching;
     private bool player2_touching;
+    public AudioSource placeAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class HuecoController : MonoBehaviour
             Instantiate(fixed_rail, this.transform.position, this.transform.rotation);
             GameController.craftedrail_player1_status = false; GameController.craftedrail_player2_status = false;
             GameController.destroy_material = true;
+            placeAudio.Play();
             Destroy(this.gameObject);
         }
     }

@@ -16,6 +16,9 @@ public class AxeController : MonoBehaviour
     //axe animator
     private Animator animator;
 
+    //axe sound
+    public AudioSource cutAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +55,7 @@ public class AxeController : MonoBehaviour
         if (GameController.axe_animate)
         {
             animator.SetTrigger("Cut");
+            cutAudio.Play();
             GameController.axe_animate = false;
         }
     }

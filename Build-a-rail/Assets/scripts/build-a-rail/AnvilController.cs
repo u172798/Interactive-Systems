@@ -12,6 +12,8 @@ public class AnvilController : MonoBehaviour
     private bool player1_iron_touching;
     private bool player2_iron_touching;
 
+    public AudioSource anvilAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,7 @@ public class AnvilController : MonoBehaviour
             player2_wood_touching = false;
             GameController.wood_player1_status = false; GameController.wood_player2_status = false;
             GameController.destroy_material = true;
+            anvilAudio.Play();
         }
 
         if (player1_iron_touching && player2_iron_touching)
@@ -51,6 +54,7 @@ public class AnvilController : MonoBehaviour
             player2_iron_touching = false;
             GameController.iron_player1_status = false; GameController.iron_player2_status = false;
             GameController.destroy_material = true;
+            anvilAudio.Play();
         }
     }
 
