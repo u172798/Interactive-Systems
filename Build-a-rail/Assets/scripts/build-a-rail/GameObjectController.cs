@@ -44,9 +44,9 @@ public class GameObjectController : MonoBehaviour
 
     private IEnumerator PlayAndChangeScene()
     {
-        train.SetTrigger("MoveTrain");
         trainMovement.Play();
-        yield return new WaitForSeconds(6);
+        train.SetTrigger("MoveTrain");
+        yield return new WaitForSeconds(20);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
