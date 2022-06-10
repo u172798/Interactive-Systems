@@ -12,6 +12,8 @@ public class GameObjectController : MonoBehaviour
 
     public Animator train;
 
+    public AudioSource trainMovement;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +45,7 @@ public class GameObjectController : MonoBehaviour
     private IEnumerator PlayAndChangeScene()
     {
         train.SetTrigger("MoveTrain");
+        trainMovement.Play();
         yield return new WaitForSeconds(6);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
