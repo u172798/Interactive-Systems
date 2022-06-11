@@ -7,6 +7,9 @@ public class AnvilController : MonoBehaviour
     private int n_iron;
     private int n_woods;
 
+    public int total_iron;
+    public int total_woods;
+
     private bool player1_wood_touching;
     private bool player2_wood_touching;
     private bool player1_iron_touching;
@@ -27,12 +30,12 @@ public class AnvilController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (n_woods == 2)
+        if (n_woods == total_woods)
         {
             GameController.wood_on_anvil = true;
         }
 
-        if (n_iron == 2)
+        if (n_iron == total_iron)
         {
             GameController.iron_on_anvil = true;
         }
